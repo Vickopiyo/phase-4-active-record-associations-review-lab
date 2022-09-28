@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+msafiri = Passenger.create()
+ride = Ride.create(passenger_id: 1, taxi_id: 1 )
+ride2 = Ride.create(passenger_id: 1, taxi_id: 1 )
+ride3 = Ride.create(passenger_id: 1, taxi_id: 1 )
+ndai = Taxi.create()
